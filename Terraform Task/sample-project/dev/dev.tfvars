@@ -1,0 +1,12 @@
+rg_name              = "sample-dev-rg"
+location             = "East US2"
+vnet_name            = "sample-dev-vnet"
+vnet_address_space   = ["10.0.0.0/16"]
+subnet_name          = "sample-dev-subnet"
+subnet_address_space = ["10.0.1.0/24"]
+nsg_name             = "sample-dev-nsg"
+public_ip_name       = "sample-dev-ip"
+nic_name             = "sample-dev-nic"
+vm_name              = "sample-dev-vm"
+vm_size              = "Standard_B1s"
+vm_username          = "adminuser"
